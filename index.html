@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,9 +7,9 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
           <img
             src="image/nerds-logo.svg"
             width="160"
@@ -17,35 +17,35 @@
             alt="Логотип Nerds"
           />
         </a>
-        <ul>
+        <ul class="site-navigation">
           <li><a href="studio.html">Студия</a></li>
           <li><a href="client.html">Клиенты</a></li>
           <li><a href="catalog.html">Магазин</a></li>
           <li><a href="contacts.html">Контакты</a></li>
-          <li><a href="basket.html">Корзина</a></li>
+          <li><a href="cart.html">Корзина</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <h1>Долго,дорого, скрупулезно.</h1>
-        <p>
+    <main class="container">
+      <section class="slogan">
+        <h1 class="slogan-title">Долго,дорого, скрупулезно.</h1>
+        <p class="slogan-text">
           Математически выверенный дизайн для вашего сайта или мобильного
           приложения.
         </p>
-        <button type="button">узнать больше</button>
+        <button class="slogan-button" type="button">узнать больше</button>
       </section>
 
-      <section>
+      <section class="slider">
         <img src="image/slide1.png" width="698" height="413" alt="телефоны" />
         <img src="image/slide2.png" width="698" height="413" alt="телефоны" />
         <img src="image/slide3.png" width="698" height="413" alt="телефоны" />
         <!---Здесь будет форма карусельки трех картинок-->
       </section>
 
-      <section>
-        <ul>
-          <li>
+      <section class="benefits">
+        <ul class="benefits-list">
+          <li class="benefits-item1">
             <img
               src="image/illustration-1.png"
               width="138"
@@ -59,7 +59,7 @@
             </p>
             <button type="button">заказать</button>
           </li>
-          <li>
+          <li class="benefits-item2">
             <img
               src="image/illustration-2.png"
               width="104"
@@ -73,7 +73,7 @@
             </p>
             <button type="button">заказать</button>
           </li>
-          <li>
+          <li class="benefits-item3">
             <img
               src="image/illustration-3.png"
               width="83"
@@ -89,7 +89,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="desc">
         <h2>
           Мы - маленькая, но гордая<br />
           дизайн-студия из Краснодара
@@ -106,7 +106,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="box">
         <img
           src="image/nerds-illustration.png"
           width="360"
@@ -130,7 +130,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="link-logo">
         <img
           src="image/logo-1Academy.png"
           width="210"
@@ -149,7 +149,12 @@
           height="88"
           alt="ссылка розовые очки"
         />
-        <img src="image/logo-4Mishka.png" width="210" height="88" alt="мишка" />
+        <img
+          src="image/logo-4Mishka.png"
+          width="210"
+          height="88"
+          alt="ссылка на мишку"
+        />
       </section>
 
       <section>
@@ -164,7 +169,7 @@
         <img src="image/map-marker.png" alt="указатель на карте" />
       </section>
     </main>
-    <footer>
+    <footer class="main-footer">
       <ul>
         <li>
           <a href="#">Вконтакте</a>
@@ -176,7 +181,7 @@
           <a href="#">Инстаграм</a>
         </li>
       </ul>
-      <p>Давайте дружить, это выгодно!</p>
+      <h3>Давайте дружить, это выгодно!</h3>
       <p>Скидка 10% для друзей из социальных сетей.</p>
     </footer>
   </body>
