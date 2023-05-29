@@ -1,3 +1,52 @@
 body {
+  margin: 0;
+  padding: 0;
 
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: black;
+
+  background-color: #ffffff;
 }
+
+/*********************header*******************/
+.main-header {
+  background-color: #eeeeee;
+}
+
+.site-navigation {
+  font-size: 16px;
+  list-style: none;
+}
+
+.site-navigation-cart {
+  list-style: none;
+}
+
+/*********************main*********************/
+/*********Slideshow container***********/
+.slide {
+  background-color: #eeeeee;
+}
+
+.slogan-button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #fb565a;
+  border: none;
+}
+
+.slogan-button:hover {
+  background-color: #e74246;
+}
+
+.slogan-button:active {
+  background-color: #d7373b;
+}
+
+/*********Slideshow container end********/
