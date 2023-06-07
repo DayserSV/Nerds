@@ -87,6 +87,79 @@
         </div>
       </section>
 
+      <section class="filters">
+        <form class="filter" method="get" action="#">
+          <fieldset>
+            <legend>сетка:</legend>
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  name="grid-group"
+                  value="adaptive"
+                  id="filter-adaptive"
+                  checked
+                />
+                <label for="filter-adaptive">Адаптивная</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="grid-group"
+                  value="fixed"
+                  id="filter-fixed"
+                />
+                <label for="filter-fixed">Фиксированная</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="grid-group"
+                  value="rubber"
+                  id="filter-rubber"
+                />
+                <label for="filter-rubber">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>особенности</legend>
+            <ul>
+              <li>
+                <input
+                  type="checkbox"
+                  name="slider-price"
+                  id="filter-slider"
+                  checked
+                />
+                <label for="filter-slider">Слайдер</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="block-of-advantages"
+                  id="filter-advantages"
+                />
+                <label for="filter-advantages">Блок преимуществ</label>
+              </li>
+              <li>
+                <input type="checkbox" name="news" id="filter-news" checked />
+                <label for="filter-news">Новости</label>
+              </li>
+              <li>
+                <input type="checkbox" name="gallery" id="filter-gallery" />
+                <label for="filter-gallery">Блок преимуществ</label>
+              </li>
+              <li>
+                <input type="checkbox" name="basket" id="filter-basket" />
+                <label for="filter-basket">Блок преимуществ</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
+      </section>
+
       <section class="more">
         <h4 class="more-headline">nerds desing studio</h4>
         <p class="more-address">
