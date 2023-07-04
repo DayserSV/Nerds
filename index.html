@@ -16,14 +16,16 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img
-            src="image/nerds-logo.svg"
-            width="160"
-            height="80"
-            alt="Логотип Nerds"
-          />
-        </a>
+        <div class="main-header-logo">
+          <a class="logo">
+            <img
+              src="image/nerds-logo.svg"
+              width="160"
+              height="80"
+              alt="Логотип Nerds"
+            />
+          </a>
+        </div>
         <div class="site-navigation-wrapper">
           <ul class="site-navigation">
             <li>
@@ -39,9 +41,11 @@
               <a href="contacts.html">Контакты</a>
             </li>
           </ul>
-          <ul class="site-navigation-cart">
-            <li><a href="cart.html">Корзина</a></li>
-          </ul>
+        </div>
+        <div class="site-navigation-cart">
+          <p class="site-cart">
+            <a class="site-cart" href="cart.html">Корзина</a>
+          </p>
         </div>
       </nav>
     </header>
@@ -119,15 +123,12 @@
               </div>
             </div>
           </div>
-          <div class="dots-circle">
-            <div style="text-align: center">
-              <span class="dot" onclick="slide1"></span>
-              <span class="dot" onclick="slide2"></span>
-              <span class="dot" onclick="slide3"></span>
-            </div>
+          <div class="input-slide">
+            <input type="radio" name="radio-button" id="radio1" />
+            <input type="radio" name="radio-button" id="radio2" />
+            <input type="radio" name="radio-button" id="radio3" />
           </div>
         </div>
-        <!---Здесь будет форма карусельки трех картинок-->
       </section>
 
       <section class="benefits">

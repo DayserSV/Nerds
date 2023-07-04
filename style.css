@@ -13,22 +13,72 @@ body {
 
 /*********************header*******************/
 .main-header {
-  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  border: solid; /*Временно*/
+}
+.main-navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border: solid; /*Временно*/
+}
+
+.site-navigation-wrapper {
+  flex-basis: 40%;
 }
 
 .site-navigation {
-  font-size: 16px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 132px;
+  font-size: 30px;
   list-style: none;
+  border: solid; /*Временно*/
+}
+
+.main-header-logo {
+  height: 132px;
+  flex-basis: 15%;
+  border: solid; /*Временно*/
+}
+
+.main-header-logo a {
+  display: block;
+  text-align: center;
 }
 
 .site-navigation-cart {
-  list-style: none;
+  height: 132px;
+  justify-content: center;
+  align-content: center;
+  flex-basis: 20%;
+  border: solid; /*Временно*/
+}
+.site-cart {
+  padding-top: 17px;
+  font-size: 30px;
+  display: block;
+  text-align: center;
 }
 
 /*********************main*********************/
 /*********Slideshow container***********/
 .slide {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  position: relative;
   background-color: #eeeeee;
+}
+
+.slide-show {
+  max-width: 1180px;
 }
 
 .slogan-button {
@@ -50,3 +100,9 @@ body {
 }
 
 /*********Slideshow container end********/
+
+.container {
+  margin: 0;
+  padding: 0;
+  border: solid; /*Временно*/
+}
