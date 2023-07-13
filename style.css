@@ -130,6 +130,7 @@ body {
 }
 
 /*css slider end*/
+
 /*manual slide navigation start*/
 
 .navigation-manual {
@@ -169,6 +170,7 @@ body {
 }
 
 /*manual slide navigation end*/
+
 /*slider Button start*/
 
 .slogan-button {
@@ -194,6 +196,7 @@ body {
 }
 
 /*slider button end*/
+
 /*slider text start*/
 
 .slogan-title {
@@ -209,7 +212,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: black;
+  color: #283136;
 }
 
 .slogan-button {
@@ -220,6 +223,7 @@ body {
   color: #ffffff;
 }
 /*slider text end*/
+
 /*automatic navigation start*/
 
 .navigation-auto {
@@ -253,7 +257,8 @@ body {
   background: #c1c1c1;
 }
 
-/*********Slideshow container end********/
+/***************Slideshow container end*****************/
+
 /***************section class=benefits******************/
 
 .benefits-list {
@@ -301,6 +306,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  color: #283136;
 }
 
 .benefits-button {
@@ -308,6 +314,7 @@ body {
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
+  color: #ffffff;
   width: 160px;
   height: 50px;
   border-radius: 2px;
@@ -325,3 +332,98 @@ body {
 .benefits-btn3 {
   background: #efc849;
 }
+
+/***************section class=benefits end****************/
+
+/*******************section class="desc******************/
+
+.desc {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.desc-info {
+  width: 660px;
+}
+
+.desc-subject {
+  font-family: "Roboto";
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.desc-slogan {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+}
+
+.desc-lead {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.desc-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  list-style: none;
+}
+
+.box {
+  width: 360px;
+  padding-left: 50px;
+}
+
+.box-slogan {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.box-excerpt {
+}
+
+.box-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.box-item {
+  padding-left: 23px;
+}
+
+.box-item-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #283136;
+}
+
+/******************section class="desc end*****************/
+
+/***************section class="link-logo"*****************/
+
+.link-logo {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  margin-top: 131px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/***************section class="link-logo" end*****************/
