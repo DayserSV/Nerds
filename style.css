@@ -258,5 +258,70 @@ body {
 
 .benefits-list {
   display: flex;
+  justify-content: space-around;
   list-style: none;
+}
+
+.benefits-img-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 148px;
+  background-color: #fb565a;
+}
+
+.benefits-img-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 148px;
+  background-color: #00ca74;
+}
+
+.benefits-img-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 148px;
+  background-color: #efc849;
+}
+
+.benefits-subtitle {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.benefits-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.benefits-button {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  width: 160px;
+  height: 50px;
+  border-radius: 2px;
+  border: none;
+}
+
+.benefits-btn1 {
+  background: #fb565a;
+}
+
+.benefits-btn2 {
+  background: #00ca74;
+}
+
+.benefits-btn3 {
+  background: #efc849;
 }
