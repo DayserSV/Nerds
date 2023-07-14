@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="catalogCSS.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <div class="main-header-logo">
+          <a class="logo">
+            <img
+              src="image/nerds-logo.svg"
+              width="160"
+              height="80"
+              alt="Логотип Nerds"
+            />
+          </a>
+        </div>
+        <div class="site-navigation-wrapper">
+          <ul class="site-navigation">
+            <li>
+              <a class="site-link" href="studio.html">СТУДИЯ</a>
+            </li>
+            <li>
+              <a class="site-link" href="client.html">КЛИЕНТЫ</a>
+            </li>
+            <li>
+              <a class="site-link" href="./catalog.html">МАГАЗИН</a>
+            </li>
+            <li>
+              <a class="site-link" href="contacts.html">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="site-navigation-cart">
+          <p class="site-cart">
+            <a class="site-cart" href="cart.html">КОРЗИНА</a>
+          </p>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="headline">
+        <p class="headline-text">Магазин готовых шаблонов</p>
+      </div>
+      <section class="sidebar">
+        <div class="wrapper">
+          <div class="caption">
+            <h3 class="caption-text">Стоимость:</h3>
+          </div>
+          <div class="slider">
+            <div class="progress"></div>
+          </div>
+          <div class="range-input">
+            <input
+              type="range"
+              class="range-min"
+              min="0"
+              max="15000"
+              step="100"
+              value="0"
+            />
+            <input
+              type="range"
+              class="range-max"
+              min="0"
+              max="15000"
+              step="100"
+              value="15000"
+            />
+          </div>
+          <div class="price-input">
+            <div class="field">
+              <span>от</span>
+              <input type="number" class="input-min" value="0" />
+            </div>
+            <div class="field">
+              <span>до</span>
+              <input type="number" class="input-max" value="15000" />
+            </div>
+          </div>
+        </div>
+        <div class="filters">
+          <form class="filter" method="get" action="#">
+            <fieldset>
+              <legend>сетка:</legend>
+              <ul class="sidebar-radio">
+                <li>
+                  <input
+                    class="radio-btn"
+                    type="radio"
+                    name="grid-group"
+                    value="adaptive"
+                    id="filter-adaptive"
+                    checked
+                  />
+                  <label for="filter-adaptive">Адаптивная</label>
+                </li>
+                <li>
+                  <input
+                    class="radio-btn"
+                    type="radio"
+                    name="grid-group"
+                    value="fixed"
+                    id="filter-fixed"
+                  />
+                  <label for="filter-fixed">Фиксированная</label>
+                </li>
+                <li>
+                  <input
+                    class="radio-btn"
+                    type="radio"
+                    name="grid-group"
+                    value="rubber"
+                    id="filter-rubber"
+                  />
+                  <label for="filter-rubber">Резиновая</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>особенности</legend>
+              <ul class="sidebar-checkbox">
+                <li>
+                  <input
+                    type="checkbox"
+                    name="slider-price"
+                    id="filter-slider"
+                    checked
+                  />
+                  <label for="filter-slider">Слайдер</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    name="block-of-advantages"
+                    id="filter-advantages"
+                  />
+                  <label for="filter-advantages">Блок преимуществ</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="news" id="filter-news" checked />
+                  <label for="filter-news">Новости</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="gallery" id="filter-gallery" />
+                  <label for="filter-gallery">Блок преимуществ</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="basket" id="filter-basket" />
+                  <label for="filter-basket">Блок преимуществ</label>
+                </li>
+              </ul>
+            </fieldset>
+            <button type="submit">Показать</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="more">
+        <h4 class="more-headline">nerds desing studio</h4>
+        <p class="more-address">
+          191186,Санкт-Петербург, <br />
+          ул. Б. Конюшенная, д. 19/8<br />
+          тел. +7 (812) 275-75-75
+        </p>
+        <button class="more-button">напишите нам</button>
+        <img
+          class="more-map"
+          src="image/Map.png"
+          width="1000"
+          height="400"
+          alt="Как до нас добраться по карте"
+        />
+        <img
+          class="more-marker"
+          src="image/map-marker.png"
+          alt="указатель на карте"
+        />
+      </section>
+    </main>
+    <footer class="main-footer">
+      <ul class="main-footer-socials">
+        <li>
+          <a href="#">Вконтакте</a>
+        </li>
+        <li>
+          <a href="#">Фейсбук</a>
+        </li>
+        <li>
+          <a href="#">Инстаграм</a>
+        </li>
+      </ul>
+      <h3 class="main-footer-slogan">Давайте дружить, это выгодно!</h3>
+      <p class="main-footer-text">Скидка 10% для друзей из социальных сетей.</p>
+    </footer>
+    <script src="js/rangeSlider.js"></script>
+  </body>
+</html>

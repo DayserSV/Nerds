@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/**********************HEADER**************************/
+
+.main-header {
+  margin: 0;
+  padding: 0;
+  background: #eeeeee;
+}
+
+.main-navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.site-navigation-wrapper {
+  margin: 0;
+  margin-right: 50px;
+  padding: 0;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 470px;
+  height: 132px;
+  list-style: none;
+}
+
+.site-link {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-header-logo {
+  margin: 0;
+  padding: 0;
+  padding-left: 35px;
+  width: 160px;
+  height: 65px;
+}
+
+.main-header-logo a {
+  display: block;
+  text-align: center;
+}
+
+.site-navigation-cart {
+  margin: 0;
+  padding: 0;
+  width: 115px;
+  height: 132px;
+  justify-content: center;
+  align-content: center;
+}
+
+.site-cart {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 33px;
+  margin-right: 5px;
+}
+
+/******************************MAIN**************************/
+
+.headline {
+  display: flex;
+  justify-content: center;
+  height: 166px;
+  background: #eeeeee;
+}
+
+.headline-text {
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+/*********************slider in slider.css********************/
+
+/***************************FILTERS***************************/
+
+.filters {
+  width: 260px;
+  padding-left: 140px;
+}
+
+.sidebar-radio {
+  list-style: none;
+}
+
+.sidebar-checkbox {
+  list-style: none;
+}
