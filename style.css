@@ -21,6 +21,7 @@ body {
   padding: 0;
   background: #eeeeee;
 }
+
 .main-navigation {
   margin: 0;
   padding: 0;
@@ -59,26 +60,67 @@ body {
 .main-header-logo {
   margin: 0;
   padding: 0;
-  padding-left: 35px;
-  width: 160px;
+  display: flex;
+  width: 195px;
   height: 65px;
 }
 
-.main-header-logo a {
-  display: block;
-  text-align: center;
+.main-header-logo .logo {
+  position: relative;
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  width: 160px;
+  height: 65px;
+  background-image: url(/image/nerds-logo.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.logo:hover::before {
+  opacity: 0.8;
+}
+
+.logo:focus::before {
+  opacity: 0.3;
 }
 
 .site-navigation-cart {
+  display: block;
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
-  width: 115px;
+  width: 180px;
   height: 132px;
-  justify-content: center;
-  align-content: center;
+}
+
+.user-navigation-cart {
+  list-style: none;
+}
+
+.user-navigation-cart .site-cart {
+  position: relative;
+  padding-left: 50px;
+}
+
+.site-cart::before {
+  content: "";
+  position: absolute;
+  top: 38px;
+  left: 7px;
+  width: 18px;
+  height: 18px;
+  background-image: url(/image/cart-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .site-cart {
+  display: block;
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
@@ -87,6 +129,22 @@ body {
   text-align: center;
   padding-top: 33px;
   margin-right: 5px;
+}
+
+.site-link:hover,
+.site-cart:hover {
+  color: #fb565a;
+}
+
+.site-link:focus,
+.site-cart:focus {
+  color: #000000;
+  text-decoration: underline #fb565a;
+}
+
+.site-link:visited:active,
+.site-cart:visited:active {
+  color: #a6a6a6;
 }
 
 /**************************main*****************************/
