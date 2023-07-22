@@ -50,119 +50,160 @@
       <div class="headline">
         <p class="headline-text">Магазин готовых шаблонов</p>
       </div>
-      <section class="sidebar">
-        <div class="wrapper">
-          <div class="caption">
-            <h3 class="caption-text">Стоимость:</h3>
-          </div>
-          <div class="slider">
-            <div class="progress"></div>
-          </div>
-          <div class="range-input">
-            <input
-              type="range"
-              class="range-min"
-              min="0"
-              max="15000"
-              step="100"
-              value="0"
-            />
-            <input
-              type="range"
-              class="range-max"
-              min="0"
-              max="15000"
-              step="100"
-              value="15000"
-            />
-          </div>
-          <div class="price-input">
-            <div class="field">
-              <span>от</span>
-              <input type="number" class="input-min" value="0" />
+      <div class="container">
+        <section class="sidebar">
+          <div class="wrapper">
+            <div class="caption">
+              <h3 class="caption-text">Стоимость:</h3>
             </div>
-            <div class="field">
-              <span>до</span>
-              <input type="number" class="input-max" value="15000" />
+            <div class="slider">
+              <div class="progress"></div>
             </div>
+            <div class="range-input">
+              <input
+                type="range"
+                class="range-min"
+                min="0"
+                max="15000"
+                step="100"
+                value="0"
+              />
+              <input
+                type="range"
+                class="range-max"
+                min="0"
+                max="15000"
+                step="100"
+                value="15000"
+              />
+            </div>
+            <div class="price-input">
+              <div class="field">
+                <span>от</span>
+                <input type="number" class="input-min" value="0" />
+              </div>
+              <div class="field">
+                <span>до</span>
+                <input type="number" class="input-max" value="15000" />
+              </div>
+            </div>
+          </div>
+          <div class="filters">
+            <form class="filter" method="get" action="#">
+              <fieldset>
+                <legend>сетка:</legend>
+                <ul class="sidebar-radio">
+                  <li>
+                    <input
+                      class="radio-btn"
+                      type="radio"
+                      name="grid-group"
+                      value="adaptive"
+                      id="filter-adaptive"
+                      checked
+                    />
+                    <label for="filter-adaptive">Адаптивная</label>
+                  </li>
+                  <li>
+                    <input
+                      class="radio-btn"
+                      type="radio"
+                      name="grid-group"
+                      value="fixed"
+                      id="filter-fixed"
+                    />
+                    <label for="filter-fixed">Фиксированная</label>
+                  </li>
+                  <li>
+                    <input
+                      class="radio-btn"
+                      type="radio"
+                      name="grid-group"
+                      value="rubber"
+                      id="filter-rubber"
+                    />
+                    <label for="filter-rubber">Резиновая</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset>
+                <legend>особенности</legend>
+                <ul class="sidebar-checkbox">
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="slider-price"
+                      id="filter-slider"
+                      checked
+                    />
+                    <label for="filter-slider">Слайдер</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="block-of-advantages"
+                      id="filter-advantages"
+                    />
+                    <label for="filter-advantages">Блок преимуществ</label>
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      name="news"
+                      id="filter-news"
+                      checked
+                    />
+                    <label for="filter-news">Новости</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="gallery" id="filter-gallery" />
+                    <label for="filter-gallery">Блок преимуществ</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="basket" id="filter-basket" />
+                    <label for="filter-basket">Блок преимуществ</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <button type="submit">Показать</button>
+            </form>
+          </div>
+        </section>
+        <div class="holder">
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <img src="/image/catalog/img-sedona.jpg" alt="sedona" />
+              </li>
+              <li>
+                <img src="/image/catalog/img-pink.jpg" alt="pink" />
+              </li>
+              <li>
+                <img src="/image/catalog/img-barbershop.jpg" alt="borodinski" />
+              </li>
+              <li>
+                <img src="/image/catalog/img-mishka.jpg" alt="mishka" />
+              </li>
+              <li>
+                <img src="/image/catalog/img-aplus.jpg" alt="alpus" />
+              </li>
+              <li>
+                <img src="/image/catalog/img-kvast.jpg" alt="kvast" />
+              </li>
+            </ul>
+            <ul class="pagination-list">
+              <li class="pagination-item pagination-item-current"><a>1</a></li>
+              <li class="pagination-item"><a href="#">2</a></li>
+              <li class="pagination-item"><a href="#">3</a></li>
+              <li class="pagination-item"><a href="#">следующая</a></li>
+            </ul>
           </div>
         </div>
-        <div class="filters">
-          <form class="filter" method="get" action="#">
-            <fieldset>
-              <legend>сетка:</legend>
-              <ul class="sidebar-radio">
-                <li>
-                  <input
-                    class="radio-btn"
-                    type="radio"
-                    name="grid-group"
-                    value="adaptive"
-                    id="filter-adaptive"
-                    checked
-                  />
-                  <label for="filter-adaptive">Адаптивная</label>
-                </li>
-                <li>
-                  <input
-                    class="radio-btn"
-                    type="radio"
-                    name="grid-group"
-                    value="fixed"
-                    id="filter-fixed"
-                  />
-                  <label for="filter-fixed">Фиксированная</label>
-                </li>
-                <li>
-                  <input
-                    class="radio-btn"
-                    type="radio"
-                    name="grid-group"
-                    value="rubber"
-                    id="filter-rubber"
-                  />
-                  <label for="filter-rubber">Резиновая</label>
-                </li>
-              </ul>
-            </fieldset>
-            <fieldset>
-              <legend>особенности</legend>
-              <ul class="sidebar-checkbox">
-                <li>
-                  <input
-                    type="checkbox"
-                    name="slider-price"
-                    id="filter-slider"
-                    checked
-                  />
-                  <label for="filter-slider">Слайдер</label>
-                </li>
-                <li>
-                  <input
-                    type="checkbox"
-                    name="block-of-advantages"
-                    id="filter-advantages"
-                  />
-                  <label for="filter-advantages">Блок преимуществ</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="news" id="filter-news" checked />
-                  <label for="filter-news">Новости</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="gallery" id="filter-gallery" />
-                  <label for="filter-gallery">Блок преимуществ</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="basket" id="filter-basket" />
-                  <label for="filter-basket">Блок преимуществ</label>
-                </li>
-              </ul>
-            </fieldset>
-            <button type="submit">Показать</button>
-          </form>
-        </div>
-      </section>
+      </div>
 
       <section class="more">
         <h4 class="more-headline">nerds desing studio</h4>

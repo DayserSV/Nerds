@@ -167,3 +167,10 @@ body {
 .sidebar-checkbox {
   list-style: none;
 }
+/*************************main container***************************/
+
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
